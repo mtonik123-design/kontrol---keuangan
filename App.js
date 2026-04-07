@@ -1,5 +1,3 @@
-const { useState, useRef, useEffect, useCallback } = React;
-
 // ─── UTILS ────────────────────────────────────────────────────────────────────
 const fmt = (n) => "Rp " + Math.round(n || 0).toLocaleString("id-ID");
 const fmtNum = (n) => Math.round(n || 0).toLocaleString("id-ID");
@@ -883,5 +881,3 @@ export default function App() {
     </div>
   );
 }
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
