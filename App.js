@@ -1,6 +1,5 @@
 const { useState, useRef, useEffect, useCallback } = React;
 
-
 // ─── UTILS ────────────────────────────────────────────────────────────────────
 const fmt = (n) => "Rp " + Math.round(n || 0).toLocaleString("id-ID");
 const fmtNum = (n) => Math.round(n || 0).toLocaleString("id-ID");
