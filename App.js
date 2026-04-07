@@ -1,5 +1,4 @@
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
+const { useState, useRef, useEffect, useCallback } = React;
 
 
 // ─── UTILS ────────────────────────────────────────────────────────────────────
@@ -885,3 +884,5 @@ export default function App() {
     </div>
   );
 }
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
