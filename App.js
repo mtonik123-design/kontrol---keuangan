@@ -1,4 +1,6 @@
-import { useState, useRef, useEffect, useCallback } from "react";
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
+
 
 // ─── UTILS ────────────────────────────────────────────────────────────────────
 const fmt = (n) => "Rp " + Math.round(n || 0).toLocaleString("id-ID");
